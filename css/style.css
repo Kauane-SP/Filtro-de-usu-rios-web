@@ -1,0 +1,153 @@
+.logo img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #48a772;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.campo_busca {
+    width: 700px;
+}
+
+.campo_busca input {
+    border-radius: 50px;
+}
+
+.menu_lateral {
+    width: 210px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 4px 0px 14px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-left: -20px;
+}
+
+.item_menu {
+    font-family: 'Popinns' 'Sans-serif';
+    font-size: 18px;
+    color: #5a5a5a;
+    padding-left: 0px;
+}
+
+.item_menu li {
+    font-weight: 500;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.item_menu i {
+    padding-right: 5px;
+}
+
+#users {
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#users .col-2,
+#users .col-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#users .col-3 {
+    justify-content: center;
+    display: flex;
+}
+
+i {
+    display: inline-block;
+    margin: auto;
+}
+
+h1 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.row {
+    border: 1px solid #d3d3d3;
+}
+
+.img-fluid {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    border-radius: 90%;
+    width: 60px;
+    height: 60px;
+}
+
+.fa-search {
+    position: relative;
+    top: 50%;
+    left: -96%;
+}
+
+.fa-search:hover {
+    cursor: pointer;
+}
+
+#busca {
+    padding-left: 5%;
+}
+
+.menu_lateral li:hover,
+#users .fas:hover {
+    color: #9bc321;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*  Responsivo */
+
+@media only screen and (max-device-width: 900px) {
+    .logo img {
+        max-width: 40px;
+        max-height: auto;
+        padding-bottom: 10px;
+    }
+    .fa-search {
+        position: relative;
+        top: 50%;
+        left: -80%;
+    }
+    #busca {
+        padding-left: 25%;
+    }
+    .campo_busca {
+        width: 200px;
+    }
+    .menu_lateral {
+        width: 500px;
+    }
+    .col-9 {
+        width: 100%;
+    }
+    #users {
+        top: 40%;
+        left: 0%;
+    }
+    h1 {
+        text-align: center;
+    }
+    .col-2 {
+        width: 30%;
+    }
+    .col-1 {
+        width: 20%;
+    }
+    .col-3 {
+        width: 50%;
+    }
+}
